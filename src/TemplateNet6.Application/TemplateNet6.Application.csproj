@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Builders\" />
+    <Folder Include="InterfacesServices\Api\Request\" />
+    <Folder Include="InterfacesServices\Api\Response\" />
+    <Folder Include="Mapping\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\TemplateNet6.Domain\TemplateNet6.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
